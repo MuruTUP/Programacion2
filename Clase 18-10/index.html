@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caso Práctico 1</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body>
+    <main class="container">
+        <div style="width: 550px; margin-top: 50px;" >
+            <form class="form">
+                <h3>Ejercicio Horas 24 -> 12</h3>
+                <p>Ingrese una hora del día en formta 24. Por ejemplo, si la entrada es 13:45</p>
+                <label class="form-label" for="hora">Ingrese hora [formato 24]:</label>
+                <input class="form-control" type="number" name="hora" id="hora">
+                <label class="form-label" for="minutos">Ingrese minutos:</label>
+                <input class="form-control" type="number" name="minutos" id="minutos" style="margin-bottom: 10px;">
+                <button onclick="procesarHora();" class="btn btn-primary" type="button">Convertir</button>
+                <button class="btn btn-secondary" type="reset">Limpiar</button>
+            </form>
+        </div>
+    </main>
+    <script src="js/ejercicio1.js"></script>
+</body>
+
+</html>
